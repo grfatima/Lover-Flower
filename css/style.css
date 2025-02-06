@@ -5,3 +5,16 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+body {
+    font-family: Oswald;
+}
+.navbar {
+    width: 1280px;
+    height: 1200px;
+    background-size: cover;
+    background: url(../images/background.png) no-repeat center;
+}
