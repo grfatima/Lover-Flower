@@ -10,6 +10,10 @@
   font-family: Oswald;
   src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: Cormorant;
+  src: url(../fonts/Cormorant/Cormorant-VariableFont_wght.ttf);
+}
 
 body {
   font-family: Oswald;
@@ -21,14 +25,12 @@ body {
   background-size: cover;
   background: url(../images/background.png) no-repeat center;
 }
-
 .nav {
   gap: 50px;
   display: flex;
   padding: 10px 20px 0 80px;
   justify-content: space-between;
 }
-
 nav a {
   color: white;
   font-size: 15px;
@@ -46,12 +48,45 @@ nav a {
   font-weight: lighter;
   text-transform: uppercase;
 }
-
 .contact a {
   color: #43ffd2;
 }
-
 .contact p {
   color: white;
   padding-bottom: 20px;
+}
+
+.header {
+  height: 550px;
+  display: grid;
+  color: white;
+  align-items: center;
+  justify-items: center;
+  text-transform: uppercase;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.header h1 {
+  font-size: 200px;
+  font-weight: 300;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 160px;
+  letter-spacing: 15%;
+  font-family: Cormorant;
+}
+.header p {
+  font-size: 15px;
+  letter-spacing: 5%;
+}
+.header a {
+  height: 45px;
+  width: 200px;
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+  padding-top: 15px;
+  text-align: center;
+  letter-spacing: 10%;
+  background-color: #43ffd2;
 }
