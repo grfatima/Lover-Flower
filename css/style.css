@@ -25,12 +25,14 @@ body {
   background-size: cover;
   background: url(../images/background.png) no-repeat center;
 }
+
 .nav {
   gap: 50px;
   display: flex;
   padding: 10px 20px 0 80px;
   justify-content: space-between;
 }
+
 nav a {
   color: white;
   font-size: 15px;
@@ -48,9 +50,11 @@ nav a {
   font-weight: lighter;
   text-transform: uppercase;
 }
+
 .contact a {
   color: #43ffd2;
 }
+
 .contact p {
   color: white;
   padding-bottom: 20px;
@@ -66,6 +70,7 @@ nav a {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
 }
+
 .header h1 {
   font-size: 200px;
   font-weight: 300;
@@ -75,10 +80,12 @@ nav a {
   letter-spacing: 15%;
   font-family: Cormorant;
 }
+
 .header p {
   font-size: 15px;
   letter-spacing: 5%;
 }
+
 .header a {
   height: 45px;
   width: 200px;
@@ -96,6 +103,7 @@ nav a {
   bottom: 54%;
   position: absolute;
 }
+
 .contact-tel {
   left: 78%;
   bottom: 1%;
@@ -104,6 +112,7 @@ nav a {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
 }
+
 .contact-tel .tel {
   font-size: 16px;
   font-weight: 200;
@@ -113,8 +122,156 @@ nav a {
   letter-spacing: 10%;
 }
 
+.banner {
+  top: 25%;
+  position: absolute;
+}
+
+.banner-blur img {
+  bottom: -68%;
+  width: 1000px;
+  position: absolute;
+}
+
 .imza {
   left: 73%;
   bottom: -65%;
   position: absolute;
+}
+
+.main {
+  width: 1280px;
+  height: 1200px;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+}
+
+.right {
+  top: 13%;
+  left: 49%;
+  position: absolute;
+}
+
+.left {
+  top: 36%;
+  left: 2%;
+  position: absolute;
+}
+
+.top {
+  top: 58%;
+  left: 38%;
+  position: absolute;
+}
+
+.ellipse3 {
+  left: 23.5%;
+  position: absolute;
+}
+
+.ellipse4 {
+  top: 15%;
+  position: absolute;
+}
+
+.main-content h2 {
+  color: white;
+  font-size: 100px;
+  letter-spacing: 2%;
+  font-weight: lighter;
+  margin-left: 6%;
+  padding-top: 70px;
+  font-family: Cormorant;
+  text-transform: uppercase;
+}
+
+.main-content p {
+  width: 480px;
+  height: 70px;
+  color: white;
+  font-size: 15px;
+  margin-left: 10%;
+  padding-top: 10px;
+  letter-spacing: 4%;
+  margin-bottom: 25px;
+  text-align: justify;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.main-box-right {
+  left: 56%;
+  bottom: 60%;
+  width: 420px;
+  margin: auto;
+  height: 260px;
+  color: white;
+  position: relative;
+  position: absolute;
+  padding: 25px 60px;
+  letter-spacing: 4%;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  background-color: #00000033;
+}
+
+.main-box-right h2 {
+  font-size: 30px;
+  color: #43ffd2;
+  font-weight: 700px;
+  text-transform: uppercase;
+}
+
+.main-box-right ul {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+
+.main-box-right a {
+  top: 85%;
+  left: 70%;
+  font-size: 12px;
+  color: #d978ac;
+  position: absolute;
+  letter-spacing: 10%;
+  text-decoration: underline;
+}
+
+.main-box-left {
+  top: 38%;
+  left: 10%;
+  width: 510px;
+  height: 280px;
+  color: white;
+  position: relative;
+  position: absolute;
+  letter-spacing: 4%;
+  padding: 25px 60px;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  background-color: #00000033;
+}
+
+.main-box-left h2 {
+  font-size: 30px;
+  color: #43ffd2;
+  font-weight: 700px;
+  text-transform: uppercase;
+}
+
+.main-box-left ul {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+
+.main-box-left a {
+  top: 85%;
+  left: 76%;
+  font-size: 12px;
+  color: #d978ac;
+  position: absolute;
+  letter-spacing: 10%;
+  text-decoration: underline;
 }
