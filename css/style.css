@@ -64,7 +64,7 @@ nav a {
   justify-items: center;
   text-transform: uppercase;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
 }
 .header h1 {
   font-size: 200px;
@@ -89,4 +89,26 @@ nav a {
   text-align: center;
   letter-spacing: 10%;
   background-color: #43ffd2;
+}
+
+.contact-social {
+  left: 88%;
+  bottom: 54%;
+  position: absolute;
+}
+.contact-tel {
+  left: 78%;
+  bottom: 1%;
+  display: grid;
+  position: absolute;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+.contact-tel .tel {
+  font-size: 16px;
+  font-weight: 200;
+  color: #43ffd2;
+  padding-top: 10px;
+  margin-left: 30px;
+  letter-spacing: 10%;
 }
