@@ -200,8 +200,8 @@ nav a {
 }
 
 .main-box-right {
-  left: 56%;
-  bottom: 60%;
+  left: 54%;
+  bottom: 56%;
   width: 420px;
   margin: auto;
   height: 260px;
@@ -226,6 +226,7 @@ nav a {
   padding-top: 10px;
   padding-left: 20px;
   font-weight: lighter;
+  text-transform: uppercase;
 }
 
 .main-box-right a {
@@ -239,7 +240,7 @@ nav a {
 }
 
 .main-box-left {
-  top: 38%;
+  top: 44%;
   left: 10%;
   width: 510px;
   height: 280px;
@@ -264,6 +265,7 @@ nav a {
   padding-top: 10px;
   padding-left: 20px;
   font-weight: lighter;
+  text-transform: uppercase;
 }
 
 .main-box-left a {
@@ -277,7 +279,7 @@ nav a {
 }
 
 .main-box-center {
-  top:44%;
+  top: 49%;
   left: 53%;
   width: 466px;
   height: 234px;
@@ -302,6 +304,7 @@ nav a {
   padding-top: 10px;
   padding-left: 20px;
   font-weight: lighter;
+  text-transform: uppercase;
 }
 
 .main-box-center a {
@@ -312,4 +315,54 @@ nav a {
   position: absolute;
   letter-spacing: 10%;
   text-decoration: underline;
+}
+
+.main-section {
+  width: 1280px;
+  height: 1300px;
+  position: relative;
+  background-color: black;
+}
+
+.background {
+  width: 900px;
+  height: 700px;
+  margin-left: 29.3%;
+  background: url(../images/background1.png) no-repeat;
+}
+
+.main-title {
+  left: 8%;
+  bottom: 80%;
+  color: white;
+  letter-spacing: 3%;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.main-title h2,
+h3 {
+  font-weight: 400;
+  font-size: 100px;
+  font-family: Cormorant;
+}
+
+.main-title p {
+  font-size: 15px;
+  padding-top: 10px;
+  font-weight: lighter;
+}
+
+.main-image {
+  left: 2%;
+  bottom: 40%;
+  position: absolute;
+}
+
+.main-image .arrow {
+  margin-bottom: 16%;
+}
+
+.main-image .center-img {
+  padding: 0 14px;
 }
